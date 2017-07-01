@@ -1,14 +1,20 @@
 
 public class SkunkApp {
               int NumberofPlayer;
+              String PlayerName[];
+              
 	public void getPlayerInfo() {
 		 NumberofPlayer= 2;
-		
 		
 	}
      public int getNumberofPlayer(){
     	 
     	 return NumberofPlayer; 
      }
-	//hello skunk
+	
+	public String[] getPlayerName() {
+		return PlayerName;
+		
+		
+	}
 }
