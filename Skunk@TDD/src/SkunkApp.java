@@ -3,7 +3,7 @@ public class SkunkApp {
               int NumberofPlayer;
               String PlayerName[];
               
-	public void getPlayerInfo() {
+	private void getPlayerInfo() {
 		 NumberofPlayer= 2;
 		
 	}
@@ -15,6 +15,6 @@ public class SkunkApp {
 	public String[] getPlayerName() {
 		return PlayerName;
 		
-		
+		//hello
 	}
 }
